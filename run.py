@@ -56,7 +56,7 @@ while True:
 	clear()
 	banner()
 	print '\n'
-	print ' \t \t   [Select Methode Crack]'
+	print ' \t \t   [Select Dual Method Crack]'
 	print '_________________________________________________________'
 	print '  [ \033[1;92m01\033[1;97m ]  Crack With Graph Api ( \033[1;92mFaster)'
 	print '  [ \033[1;92m02\033[1;97m ]  Crack With M.Facebook ( \033[1;93mSLOW  )\n'
@@ -66,12 +66,12 @@ while True:
 		print('\n\033[1;91mHadeh\033[1;97m')
 		exit()
 	if choose == 1 or choose == 01:
-		os.system('python2 brute-cpython40.so')
+		os.system('python2 40')
 		exit()
 	elif choose == 2 or choose == 02:
 		print ('Jangan lupa donasi seiklashnya :"v')
 		time.sleep(1)
-		os.system('python2 brute-cpython39.so')
+		os.system('python2 39')
 		exit()
 	else:
 		print(R+"ISI YANG BENER"+W)
